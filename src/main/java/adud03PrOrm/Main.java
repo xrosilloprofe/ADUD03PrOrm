@@ -1,4 +1,4 @@
-package ADUD03PrOrm;
+package adud03PrOrm;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

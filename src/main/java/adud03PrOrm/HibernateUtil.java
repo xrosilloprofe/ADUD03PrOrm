@@ -1,4 +1,4 @@
-package ADUD03PrOrm;
+package adud03PrOrm;
 
 //import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
