@@ -55,13 +55,21 @@
 		<!-- LICENSE INFORMATION MariaDB JDBC Connector:2.2.1 Lesser General Public 
 			License (LGPL) 2.1 http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html 
 			2016-02-04 emifor -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<version>${mariadb.version}</version>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
+		
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
